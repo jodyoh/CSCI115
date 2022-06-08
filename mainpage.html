@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MainPage</title>
+    <style type="text/css">
+        body {
+            background-image: url(img/tiles-shapes-gfb3f45ea3_1920.jpg);
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-position: center;
+            color: antiquewhite;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 40%;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            padding: 2px 16px;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <h1>Welcome to the Marshall Family Recipe Page</h1>
+    <p>Here we will share our favorite recipes, both original or adopted from an online blogger (link to their page will be provided).</p>
+    <p>Bon Apetit!</p>
+    <h2>Card</h2>
+
+    <div class="card">
+        <img src="img/Alex2021.jpg" alt="AlPic" style="width:100%">
+        <div class="container">
+            <h4><b>John Doe</b></h4>
+            <p>Architect & Engineer</p>
+        </div>
+    </div>
+    <h2>Round Card</h2>
+    <div class="card">
+      <img src="img/Pardon2020.jpg" alt="Avatar" style="width:100%">
+      <div class="container">
+        <h4><b>Jane Doe</b></h4> 
+        <p>Interior Designer</p> 
+      </div>
+    </div>
 </body>
+
 </html>
