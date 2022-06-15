@@ -1,0 +1,35 @@
+body {
+    /* background-image: url(img/tiles-shapes-gfb3f45ea3_1920.jpg); */
+    background-image: url(img/4880206.jpg);
+    /* background-size: 100% 100%; */
+    /* background-image: url(img/pexels-matheus-natan-3394939.jpg);*/
+    background-repeat: repeat; 
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: darkcyan;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 150px;
+    padding-top: 30px;
+    border-bottom: #888 thin solid;
+}
+h2 {
+    color: rgb(18, 48, 48);
+}
+p {
+    font-size: 14px;
+    color: lightseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+em {
+    color: darkcyan;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td {
+    color: lightseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+}

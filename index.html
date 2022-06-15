@@ -1,3 +1,6 @@
+<!-- Jody Marshall 578 153 777 -->
+<!-- Background image credit-->
+<!-- <a href="http://www.freepik.com">Designed by Freepik</a> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,53 +8,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MainPage</title>
+    <title>Marshall Main page</title>
+    <link rel="stylesheet" type="text/css" href="Proj1.css">
     <style type="text/css">
-        body {
-            background-image: url(img/tiles-shapes-gfb3f45ea3_1920.jpg);
-            background-repeat: repeat;
-            background-attachment: fixed;
-            background-position: center;
-            color: antiquewhite;
+        .flexcontainer {
+            display: flex;
+            border: 2px solid rgb(240, 176, 206);
+            height: auto;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
         }
 
-        .card {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            transition: 0.3s;
-            width: 40%;
+        .flexitem {
+            display: flex;
+            background-color: rgba(175, 188, 233, 0.3);
+            border: 4px solid rgb(240, 176, 206);
+            width: 200px;
+            justify-content: center;delicate palate
+            align-items: center;delicate palate
+            height: auto;
+            margin: 9px;
         }
 
-        .card:hover {
-            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-        }
-
-        .container {
-            padding: 2px 16px;
+        .pic1 {
+            justify-content: center;
+            align-items: center;
         }
     </style>
 </head>
 
 <body>
-    <h1>Welcome to the Marshall Family Recipe Page</h1>
-    <p>Here we will share our favorite recipes, both original or adopted from an online blogger (link to their page will be provided).</p>
-    <p>Bon Apetit!</p>
-    <h2>Card</h2>
+        <h1>Welcome to the Marshall Family Favorites Recipe Page</h1><br>
+        <p>Here I will share our favorite recipes, both original or adopted from an online blogger (link to their page will be provided).</p>
+        <!-- Family Pics & Faves -->
+        <div class="flexcontainer">
+            <!-- Alex -->
+        <div class="flexitem item1">
+            <div><img src="img/Alex2021.jpg" alt="Alex Pic" width="200px" height="200px">
 
-    <div class="card">
-        <img src="img/Alex2021.jpg" alt="AlPic" style="width:100%">
-        <div class="container">
-            <h4><b>John Doe</b></h4>
-            <p>Architect & Engineer</p>
+                <h2 style="color: black; font-family:Arial, Helvetica, sans-serif; border-bottom: thin solid;">Cinnamon Buns</h2>
+                
+                <p style="color: black;">Alex has a very discerning palate and regularly seeks chicken fingers and poutine. Sadly, I cannot recreate his fast-food favorites well enough to compete. &#128542;</p>
+                
+                <p style="color: black;"><em style="color:rgb(105, 186, 25)">However</em>, I can trump those favorites easily because Alex cannot resist a batch of cinnmon buns!</p> 
+                
+                <p style="color: black;">I perfected this recipe one NewYear's Eve when I was expecting Erik and had a craving!</p>
+
+                <p style="color: black;"> <a href="cinnamonbuns.html">Cinnamon Buns Recipe.</a></p>
+            </div>
         </div>
-    </div>
-    <h2>Round Card</h2>
-    <div class="card">
-      <img src="img/Pardon2020.jpg" alt="Avatar" style="width:100%">
-      <div class="container">
-        <h4><b>Jane Doe</b></h4> 
-        <p>Interior Designer</p> 
-      </div>
-    </div>
+        <!-- Dave -->
+        <div class="flexitem item2">
+            <div><img src="img/Dave2022.jpg" alt="Dave Pic" width="200px" height="200px">
+        
+                <h2 style="color: black; font-family:Arial, Helvetica, sans-serif; border-bottom: thin solid;">Potato Soup</h2>
+        
+                <p style="color: black;">This one here about Dave - potato soup</p>
+        
+                <p style="color: black;"><a href="PotatoSoup.html">Potato Soup Recipe</a></p>
+            </div>
+        </div>
+        <!-- Erik -->
+        <div class="flexitem item3">
+            <div><img src="img/Erik2021.jpg" alt="Erik Pic" width="200px" height="200px">
+        
+                <h2 style="color: black; font-family:Arial, Helvetica, sans-serif; border-bottom: thin solid;">Chow Mein</h2>
+        
+                <p style="color: black;">Erik just loves the Chow Mein by Ichiban shown in this <a href="https://youtu.be/EjptLmCswo8" target="_blank">YouTube Video.</a></p>
+            </div>
+        </div>
+        <!-- Olivia -->
+        <div class="flexitem item4">
+            <div><img src="img/Olivia2022.jpg" alt="Olivia Pic" width="200px" height="200px">
+        
+                <h2 style="color: black; font-family:Arial, Helvetica, sans-serif; border-bottom: thin solid;">Chocolate Chip Cookies</h2>
+        
+                <p style="color: black;">Olivia loves to bake cookies!...or at least loves to add/mix all ingredients, and then quickly finds something else to do when it's time to scoop the dough onto the cookie trays. &#40;That part takes too long!&#41;</p> 
+        
+                <p style="color: black;">We have a <em style="color: red">hot</em> tip to making <em style="color: black; font-weight: 500;">delish</em> cookies! Make sure to add &frac14; cup of Ovaline to the cookie dough! &#128521;</p>
+        
+                <p style="color: black;">Here is a link to some really great cookies: <br><a href="https://www.landolakes.com/recipe/18134/five-star-chocolate-chip-cookies/?epik=dj0yJnU9WXJQci1QeDBSV1Nmd25zdVhPNGhOeENmUjhZTEtOYWkmcD0wJm49b0hUT1lzVnpLSTBDZkh6NXNrbjBqUSZ0PUFBQUFBR0ttWXhF" target="_blank">Land'o Lakes Cookie Recipe.</a></p>
+</div></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
