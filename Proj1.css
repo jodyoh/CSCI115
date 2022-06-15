@@ -6,6 +6,7 @@ body {
     background-repeat: repeat; 
     background-attachment: fixed;
     background-position: center;
+    margin: 25px;
 }
 
 h1 {
@@ -15,14 +16,17 @@ h1 {
     margin-left: 150px;
     padding-top: 30px;
     border-bottom: #888 thin solid;
+    margin: 25px;
 }
 h2 {
     color: rgb(18, 48, 48);
+    margin: 25px;
 }
 p {
     font-size: 14px;
     color: lightseagreen;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
 }
 em {
     color: darkcyan;
@@ -32,4 +36,5 @@ em {
 td {
     color: lightseagreen;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
 }
