@@ -13,10 +13,10 @@ h1 {
     font-size: 36px;
     color: darkcyan;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 150px;
+    /* margin-left: 150px; removed this b/c after centering the title the border looked better going all the way across */
     padding-top: 30px;
     border-bottom: #888 thin solid;
-    margin: 25px;
+    text-align: center;
 }
 h2 {
     color: rgb(18, 48, 48);
