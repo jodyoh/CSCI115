@@ -32,12 +32,23 @@
             height: auto;
             margin: 9px;
         }
+        .flexitem2 {
+            display: flex;
+            background-color: rgba(175, 188, 233, 0.3);
+            border: 4px solid rgb(240, 176, 206);
+            width: auto;
+            justify-content: center;
+            align-items: flex-end;
+            height: auto;
+            margin: 9px;
+        }
 
     </style>
 </head>
 
 <body>
     <h1>Welcome to the Marshall Family Favorites Recipe Page</h1>
+    <!-- I got an error when validating saying that I should use CSS to center my content, but I couldn't get it to work for me, so I'm stuck with these -->
     <center>
         <p>I love to gather ideas from a couple of different sources and then make alterations and new combinations, and the
             following recipes are our favorites!</p>
@@ -127,6 +138,18 @@
                                     </p>
                                 </div>
                             </div>
+                            <div class="flexitem2 item5">
+                                <!-- server-side system not covered in this class to process the gathered data -->
+                            <form method="post" action="process.php">
+                                <!-- text box -->
+                                <p>Please sign our guest book!</p>
+                                <textarea name="SayHi" rows="10" cols="15">Say hi!
+
+                                    </textarea><br>
+                                    <input type="submit" value="Submit">
+
+                                </form>
+                                </div>
                         </div>
 
 
